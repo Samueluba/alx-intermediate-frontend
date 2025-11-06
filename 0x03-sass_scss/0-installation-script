@@ -1,1 +1,22 @@
+# Steps to install SASS
+
+# 1. Install NVM (Node Version Manager) to manage Node.js versions
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# 2. Exit the terminal and reopen it to load NVM
+exit
+# Reopen terminal
+
+# 3. Install Node.js version 20.16 using NVM
+nvm install 20.16
+
+# 4. Verify Node.js and npm installation
+node -v
+npm -v
+
+# 5. Install SASS version 3.7.4 using npm
+npm install sass -v 3.7.4
+
+# 6. Verify SASS installation
+npx sass --version
 
